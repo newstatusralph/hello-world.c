@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo "restfull api"
+        run: | 
+          echo "restfull api"
+          echo "${{github.event}}"

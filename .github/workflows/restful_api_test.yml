@@ -13,3 +13,5 @@ jobs:
         run: | 
           echo "restfull api"
           echo "${{github.event}}"
+          echo "${{github.event_type}}"
+          echo "${{github.event.event_type}}"

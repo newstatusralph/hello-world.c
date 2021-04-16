@@ -1,4 +1,4 @@
-name: Node.js CI
+name: restfull api test
 
 on:
   repository_dispatch:

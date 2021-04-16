@@ -12,5 +12,5 @@ jobs:
       - name: Run a one-line script
         run: | 
           echo "restfull api"
-          echo "${{github.event}}"
+          echo "${{github.event.client_payload.event_type}}"
 
